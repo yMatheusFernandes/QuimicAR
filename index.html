@@ -26,6 +26,7 @@
         mindar-image="imageTargetSrc: assets/makers/targets.mind;"
         embedded
         color-space="sRGB"
+        background="color: #222"
         renderer="precision: mediump;"
         vr-mode-ui="enabled: false"
         device-orientation-permission-ui="enabled: true"
@@ -35,41 +36,38 @@
 
         <!-- Texto informativo -->
         <a-entity
-          position="0 1 -1"
+          position="0 1.5 -2"
           text="value: Escaneie os marcadores de Hidrogênio e Oxigênio para formar H₂O; color: white; align: center;"
         ></a-entity>
 
-        <!-- Marcador 0: Oxigênio -->
+        <!-- Marcador 0: Oxigênio (cubo vermelho de teste) -->
         <a-entity mindar-image-target="targetIndex: 0" id="marker-o">
-          <a-entity
+          <a-box
             id="modelo-o"
-            gltf-model="assets/models/oxigeno.glb"
-            scale="0.2 0.2 0.2"
+            color="red"
+            scale="0.3 0.3 0.3"
             position="0 0 0"
-            rotation="0 180 0"
-          ></a-entity>
+          ></a-box>
         </a-entity>
 
-        <!-- Marcador 1: Hidrogênio -->
+        <!-- Marcador 1: Hidrogênio (cubo azul de teste) -->
         <a-entity mindar-image-target="targetIndex: 1" id="marker-h">
-          <a-entity
+          <a-box
             id="modelo-h"
-            gltf-model="assets/models/hidrogeno.glb"
+            color="blue"
             scale="0.2 0.2 0.2"
             position="0 0 0"
-            rotation="0 180 0"
-          ></a-entity>
+          ></a-box>
         </a-entity>
 
-        <!-- Modelo final: Molécula de água -->
-        <a-entity
+        <!-- Molécula H2O (esfera verde ao fundo quando combinação for detectada) -->
+        <a-sphere
           id="modelo-h2o"
-          gltf-model="assets/models/h2o_molecule.glb"
+          color="green"
           visible="false"
-          position="0 0 -0.5"
-          scale="0.3 0.3 0.3"
-          rotation="0 180 0"
-        ></a-entity>
+          position="0 0 -2"
+          scale="0.4 0.4 0.4"
+        ></a-sphere>
       </a-scene>
     </div>
 
