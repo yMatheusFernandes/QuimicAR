@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.ptc.vuforia.engine": {
+      "tarball": {
+        "hash": "961073a467ccdbcf8ee8ccfb4f5d211b",
+        "mtime": 1752883101382,
+        "size": 127894844,
+        "localPath": "D:\\Quimic Project\\Packages\\com.ptc.vuforia.engine-11.3.4.tgz"
+      }
+    }
+  }
+}

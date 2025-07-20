@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: ASRL0R7/////AAABmTRrV4twLEzvjGysMB+KyDFGHyac6efA0E/MahayJFWL9ozETyrib8z7PVp0ztzSWxxGks9DOFrRZOxhReDf8fGByf5tFqOzGFUIqOlNSrT4E6eItPHSED9raEeYAYro0aUzy+XmJSABUGhMbFKbclgSiWhayH+1EI22p7Dk4VJ7aUkcyklRdtFgTYNrqjS8FIGjhkDOBN36upJ/MW9LiDXWrTZwTxERjrS2g/HrTo6mQpH9VpijWJTjFLtqfe+hmQ8eI8mtKapAUzzi1QfG1mKp7rm0kT+uTpciYdPhMSDpIaZf3loM3v1+MX0+uhTkiF9juGSBNtq8OVUz+89qUYOxYni5tchjMxaWCue0PwH4
+    ufoLicenseKey: QWI2OEJPUC8vLy8vQUFBQUtPV1RrMVRDQUVHTHJVbE1qR2NpWmFaSFFJWkRvL09oUVJOSGdBZXVFOStrNDQxRzVkY3pmVWdub0V0RUY1RU41R2lvR0E0UGoyem40NzFBYW02Mys3M1NOWXFGQ1I0S01mMWJQL01JdnRNTnR1K3Nsakp6UWNXQ3Q4NWFTcDJCekZ1ZWZRQXFoTUMvRWYxUDNzbENWUFd5UnNoL2dVbng1NmZpRGRNanEwZVZ2WjNNU3phNU0xZHpDQ09YWk10UzRTSk5NM2tMVzREQVZsR1F2dWFsZzRseWVvbFJya0NSSlg1dHYySS9YSzZJK2pHNHJuQ0hQRFRQT0N3YkZlaDhJNFVYRUdDMmdhSWp3RFZOdzVmZlhjL1l2bE9aRTE1d2dZY0xWVmhKaGpjbzdmM0xpOXh4TkZNS0s5bXpET3o1bm1rU0lSenRJUnB5dUxhQ2hvK2hhaXYvc21KYVZocVdJR29FTnRzbzNOLys=
+    delayedInitialization: 0
+    cameraFocusModeSetting: 2
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 6
+    virtualSceneScaleFactor: 1
+    modelTargetRecoWhileExtendedTracked: 1
+    shareRecordingsInITunes: 0
+    logLevel: 0
+    version: 11.3.4
+    eulaAcceptedVersions: '{"Values":["11.3","8.5"]}'
+  database:
+    disableModelExtraction: 0
+  plugins:
+    pluginDirectory: asset://Vuforia
+  shaders:
+    depthMaskShader: {fileID: 4800000, guid: 9894afa5f3a5e4bbca625981beb1b20e, type: 3}
+    outlineShader: {fileID: 4800000, guid: 88d3b6b5cf364476ca39fcec255331b1, type: 3}
+    unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000,
+      type: 0}
+  runtimeResources:
+    register: {fileID: 11400000, guid: 41fc44d3a90764cc7b50f1019f2d8310, type: 2}
+  videoBackground:
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 4800000, guid: 144dfca22ac584ade9e538e24a5ddded,
+      type: 3}
+    unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoStartTracker: 1
+    arcoreRequirement: 1
+    autoImportArcore: 1
+    thirdPartyARCoreClientDetected: 1
+  playmode:
+    mRecordingPath: "C:/Users/mathe/OneDrive/V\xEDdeos/WhatsApp Video 2025-07-18
+      at 21.42.57.mp4"
+    playModeType: 0
+    mSimulatorInputActionAsset: {fileID: -944628639613478452, guid: eae7022f5cfd04e8189b1f372421b225,
+      type: 3}
+  webcam:
+    renderTextureLayer: 30
+  packageInformation:
+    ARFoundationVersion: 6.1.0

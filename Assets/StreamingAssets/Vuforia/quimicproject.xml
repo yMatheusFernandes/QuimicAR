@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="hydrogen2" size="1.000000 1.503929" />
+    <ImageTarget name="po" size="1.000000 1.481951" />
+    <ImageTarget name="ci" size="1.000000 1.512846" />
+    <ImageTarget name="hidrogen1" size="1.000000 1.490732" />
+    <ImageTarget name="na" size="1.000000 1.484878" />
+    <ImageTarget name="o" size="1.000000 1.492172" />
+    <ImageTarget name="hidrogen" size="1.000000 1.490732" />
+  </Tracking>
+</QCARConfig>

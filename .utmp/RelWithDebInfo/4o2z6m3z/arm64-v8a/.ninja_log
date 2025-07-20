@@ -1,0 +1,10 @@
+# ninja log v5
+44	5441	7738711028573021	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	e104d64dca088cb1
+136	5457	7738711028705196	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	822ed90d6bc240ee
+16	5460	7738711028842894	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	a81a9c631db7eb06
+79	5465	7738711029584320	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	545f4a7a57f19e
+29	5486	7738711029808298	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	49031a4f771740a1
+96	5495	7738711029685808	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	d99b1cf2e4422a3
+60	5631	7738711031568550	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	a514960a445b6821
+1	5725	7738711032650642	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	cddb6c14812aa7e9
+5726	6123	7738711036669741	C:/Users/W10/Downloads/Quimic Project/Quimic Project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4o2z6m3z/obj/arm64-v8a/libgame.so	5df4ee8fe8e2e1e8
