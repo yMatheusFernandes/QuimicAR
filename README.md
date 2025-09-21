@@ -147,7 +147,7 @@ R: O app estará disponível para download no **Google Drive**. O link ficará d
 
 ## Anexos e links no repositório
 
-* `Assets/Resources/Cards/cards.pdf` — PDF para impressão. (Adicionar manualmente ao repositório se ainda não existir.)
+* `../Cards/QuimicAR_Cards` — PDF para impressão. 
 * `Assets/Data/elements.json` — lista de elementos.
 * `Assets/Data/combinations.json` — regras de combinação.
-* Link para download do app no Google Drive (adicionar no README).
+* Link para download do app no Google Drive 
